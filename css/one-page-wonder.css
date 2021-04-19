@@ -151,6 +151,46 @@ header.masthead .bg-circle-4 {
   }
 }
 
+/* test */
+
+ .masthead .stream {
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  right: 0;
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+  text-align: center;
+}
+
+ .masthead .stream a {
+  transition: color 0.3s;
+  color: #222222;
+  margin: 0 3px;
+  padding-top: 7px;
+  border-radius: 4px;
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+  transition: ease-in-out 0.3s;
+  color: #fff;
+}
+
+
+  .masthead .stream i {
+  font-size: 50px;
+}
+
+  .masthead:hover .stream{
+    opacity: 0.5;
+    bottom: 0px;
+  }
+
+  .masthead .stream:hover{
+    opacity: 1;
+  }
+/* end test */
+
 .bg-primary {
   background-color: #ee0979 !important;
 }
